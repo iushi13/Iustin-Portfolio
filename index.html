@@ -1,1 +1,170 @@
-# Iustin-Portofolio
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iustin Neaga Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Background</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Iustin Neaga</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src="img/me.jpg" alt="a picture of Iustin" class="intro__img">
+            <a href="files/Iustin_CV.pdf" download="Iustin_CV.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download CV</a>
+        </section>
+        
+        
+        <!-- skills -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Skills</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Programming Languages</h3>
+                    <p>Python, C/C++, Embedded C, Javascript, HTML/CSS, Sql/MySql, Bash, Batch, Ruby</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Technical Knowledge</h3>
+                    <p>Software Testing & Development, Test automation, System Administration, Networking, Git, Linux, Docker, Virtualization, Microsoft Flows, Microsoft Power Apps, Azure Devops, Adobe Creative Suite, Matlab, PCB Design, Scripting, Web Design, Cyber Security</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Tools</h3>
+                    <p>Visual Studio C++, Visual Studio Code, Labwindows CVI, svn, github, Wireshark, Jira,  MobaXTerm, SQL Developer, BMC Remedy, Microsoft Sharepoint, Eclipse, Bugzilla, Kanban</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn" target="_blank" rel="noopener noreferrer">My Background</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Software Engineer in Lucerne, Switzerland</p>
+           
+           <div class="about-me__body">
+               <h3>Some words about me</h3>
+               <p>I am curious. I like to always study something, to be in continous learning in any topic.</p>
+               <h3>Languages</h3>
+               <p>Romanian (mother tongue), English (C2 certificate), German (C1 certificate), French (A2), Spanish (A2)</p>
+               <h3>Hobbies</h3>
+               <p>Chess, Philosophy, Physics, Astrophysics, Sport, Ayurveda</p>
+               <h3>Certifications</h3>
+               <p><a href="https://www.credly.com/badges/8751b46e-34f8-44e5-95d5-a3378c39a43e" target="_blank" rel="noopener noreferrer">Linux System Administration (02.2022)</a></p>
+               <p><a href="url"  target="_blank" rel="noopener noreferrer">ISTQB - Foundation Level (10.2020)</a></p>
+               <p><a href="https://www.efset.org/cert/5okQnx"  target="_blank" rel="noopener noreferrer">English C2 certificate (07.2019)</a></p>
+               <p><a href="url"  target="_blank" rel="noopener noreferrer">German C1 certificate (05.2015) </a> </p>
+           </div>
+           
+           <img src="img/me.jpg" alt="iustin picure" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Background</h2>
+
+            <p class="section__subtitle section__subtitle--work">My education</p>
+
+            <div class="about-me__body">
+            <h3>Politehnica University of Timisoara<br>
+            Bachelor's degree: Electronics, Telecommunications and Information Technology, Timisoara, Romania</h3>
+            <h4>2015 - 2019</h4>
+            <p>Bachelor Thesis: Iris recognition application using C++, OpenCV</p>
+            </div>
+
+            <p class="section__subtitle section__subtitle--work">My projects</p>
+            <div class="about-me__body">
+            <h3>InGENIOUSly contest at Continental, Timisoara, Romania</h3>
+            <h4>03.2017 - 06.2017</h4>
+            <p>Team project with Software & Hardware with the goal of building a mini autonomous car.<br>My team was awarded the 3rd place based on our result.</p>
+            <h3>Microsoft TECHathon at Microsoft, Timisoara, Romania</h3>
+            <h4>05.2018, 10.2018, 05.2019</h4>
+            <p>1 day project/ contest at Microsoft headquarters in teams of 3, for different tasks using Microsoft Azure Cloud Solutions.<br>Atteneded 3 times. Teams were awarded with prizes based on result at the end of the day.<br>05.2018 - 2nd place, 10.2018 - 3rd place, 05.2019 - 1st place </p>
+            </div>
+            <p class="section__subtitle section__subtitle--work">My experience</p>
+            
+            <div class="about-me__body">
+
+                <h3>Software Development Engineer <br>GWF MessSysteme AG, Lucerne, Switzerland</h3>
+                <h4>10.2021 - Present</h4>
+                <p>- Software Development for production site<br>
+                   - Drivers, Apps with GUI for production usage, tests<br>
+                   - Python, Power Apps, ERP, Azure, Docker, Microsoft Flows, Power Automate, Git<br>
+                   - Tools: VS Code, github, Sharepoint, Azure DevOps
+                </p>
+                
+                <h3>Software Engineering Consultant <br>ALTEN Germany (at Project at Continental as Software Test Engineer), Munich, Germany</h3>
+                <h4>09.2019 - 09.2021</h4>
+                <p>ADAS - HFL (High Resolution 3D Flash LIDAR) & Radar<br>
+                        - Software for test stations & industrialization<br>
+                        - Drivers & GUI for Hardware (ECU, sensor heads), C++ dlls, SW test & validation, test plans, test cases, debugging<br>Ethernet protocol with media converters/ Goepel card/ VN, implementation of PTS updates<br>
+                        - Tools: Labwindows CVI for C, Visual Studio C++, svn, github, Wireshark, Jira</p>
+
+                <h3>AMS Support Consultant for BMW <br>NTT DATA, Timisoara, Romania</h3>
+                <h4>03.2019 - 05.2019</h4>
+                <p> - 2nd Level Support in German<br>
+                    - Production Control System Administration for BMW production sites from Germany<br>
+                    - Incident, Problem & Change Management<br>
+                    - Technologies: Linux, Oracle Database, SQL<br>
+                    - Tools used: MobaXTerm, SQL Developer, BMC Remedy, Jira, Microsoft Sharepoint</p>
+
+                <h3>Junior Software Engineer<br>Intel Corporation, Timisoara, Romania</h3>
+                <h4>03.2018 - 02.2019</h4>
+                <p> - Software validation, verification & testing, test plans, Python/ Bash scripts, Jenkins automation jobs, bug solving<br>
+                    - Programming languages: C, C embedded, C++, Python, Bash<br>
+                    - Tools: Jira, Kanban, Bugzilla, Eclipse, Docker, Git<br>
+                    - OS: Linux (Fedora, Ubuntu), Windows 10</p>
+
+            </div>
+
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+
+            <a href="mailto:iustinneaga96@gmail.com" class="footer__link">iustinneaga96@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/neagaiustin/ " target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
