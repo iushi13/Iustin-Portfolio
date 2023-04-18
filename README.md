@@ -1,2 +1,2 @@
-Personal Portofolio Website
+Personal Portfolio Website
 https://iushi13.github.io/Iustin-Portofolio/
